@@ -14,33 +14,44 @@ It also allows to compute all the information structure  for Nb_of_m=XXXX values
 
 
     INFOTOPO_VISUALIZATION_V1.1.py 
-This program computes all the visualization of information quantities in the form of distributions, information landscapes, mean landscapes and information paths together with an approximation of the minimum information energy complex, and scafolds of the Information. The input is the saved object-files .plk. . You have to choose the plk to load at the begining of the program and the corresponding figures of output you want by assigning a boolean value:
- Computes and display various entropies, means,  efficiencies etc...    
-SHOW_results_ENTROPY = False
+This program computes all the visualization of information quantities in the form of distributions, information landscapes, mean landscapes and information paths together with an approximation of the minimum information energy complex, and scafolds of the Information. The input is the saved object-files .plk. It also allows to visualize the result of the test, the parameters are the same as previously exposed. You have to choose the plk to load at the begining of the program and the corresponding figures of output you want by assigning a boolean value:
+Computes and display various entropies, means,  efficiencies etc...    
+SHOW_results_ENTROPY 
+
 Computes and display various infomut, means, etc...    
-SHOW_results_INFOMUT = False
+SHOW_results_INFOMUT 
+
 Computes and display cond infomut, cond infomut landscape, etc... 
-SHOW_results_COND_INFOMUT = False
+SHOW_results_COND_INFOMUT 
+
 Computes and display HISTOGRAMS ENTROPY, ENTROPY landscape, etc...
-SHOW_results_ENTROPY_HISTO = False
+SHOW_results_ENTROPY_HISTO 
+
 Computes and display INFOMUT HISTOGRAMS , INFOMUT landscape, etc...
-SHOW_results_INFOMUT_HISTO = False
+SHOW_results_INFOMUT_HISTO 
+
 Computes and display INFOMUT PATHS, etc...
-SHOW_results_INFOMUT_path = False
+SHOW_results_INFOMUT_path
+
 Computes and display SCAFFOLDS (RING representation) of mutual info
 currently only for I2 ( pairwise infomut...), Ik to be developped soon
-SHOW_results_SCAFOLD =  False
+SHOW_results_SCAFOLD 
+
 Computes and display INFOMUT-ENTROPY-k landscape (ENERGY VS. ENTROPY) ...
-SHOW_results_INFO_entropy_landscape = True
+SHOW_results_INFO_entropy_landscape
+
 Computes the mean Ik as a function os the binning graining N and dim k ..
-SHOW_results_INFOMUT_Normed_per_bins = False
+SHOW_results_INFOMUT_Normed_per_bins
+
 Computes the mean Ik as a function os the sample size m and dim k ..
-SHOW_results_INFOMUT_Normed_per_samplesize = False
+SHOW_results_INFOMUT_Normed_per_samplesize 
+
 Reload the information landscapes saved in pkl file
-SHOW_results_RELOAD_LANDSCAPES =  False
+SHOW_results_RELOAD_LANDSCAPES 
+
 Print data saved in pkl file
-SHOW_results_PRINT_PLK_file  =  False
-It also allows to visualize the result of the test, the parameters are the same as previously exposed.
+SHOW_results_PRINT_PLK_file  
+
 
 
 [1] J.W. Shipman. Tkinter reference: a gui for python. . New Mexico Tech Computer Center, Socorro, New Mexico, 2010. [2] J.D. Hunter. Matplotlib: a 2d graphics environment. Comput. Sci. Eng., 9:22–30, 2007. [3] S. Van Der Walt, C. Colbert, and G. Varoquaux. The numpy array: a structure for efficient numerical computation. Comput. Sci. Eng., 13:22– 30, 2011. [4] A.A. Hagberg, D.A. Schult, and P.J. Swart. Exploring network structure, dynamics, and function using networkx. Proceedings of the 7th Python in Science Conference (SciPy2008). Gel Varoquaux, Travis Vaught, and Jarrod Millman (Eds), (Pasadena, CA USA), pages 11–15, 2008. [5] M. Tapia, P. Baudot, M. Dufour, C. Formisano-Tréziny, S. Temporal, M. Lasserre, J. Gabert, K. Kobayashi, JM. Goaillard . Information topology of gene expression profile in dopaminergic neurons doi: https://doi.org/10.1101/168740 http://www.biorxiv.org/content/early/2017/07/26/168740
